@@ -6,7 +6,7 @@ Verified versions are anaconda3-5.1.0 + CUDA 10.0.130 + CUDNN 7.6.5 on Ubuntu 20
 run the download_data.py file in the tools folder. The folders generated will be ignored by the .gitignore file, so the dataset wont be uploaded to github when saving this repository.
 
 ## Set Up ByteTrack
-Follow ByteTrack instructions to [Installing on the host machine](https://github.com/ifzhang/ByteTrack#1-installing-on-the-host-machine). For the first step, the repo has already been cloned here.
+Follow ByteTrack instructions to [Installing on the host machine](https://github.com/ifzhang/ByteTrack#1-installing-on-the-host-machine). For the first step, the repo has already been cloned here. Download bytetrack_x_mot20 pretrained model from the same page and put it in <ByteTrack_HOME>/pretrained.
 
 ### Run inference for each sequence
 Let the path for the ByteTrack_HOME folder be <ByteTrack_HOME>

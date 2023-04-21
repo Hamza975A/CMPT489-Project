@@ -2,11 +2,13 @@
 
 The prerequisite for running this project is that CUDA and CUDNN are properly installed and related enviorment variables are properly set. Specific versions are suggested for each model in their README.
 
+The toolkit for the base of this project/competition can be found at this [link](https://github.com/SoccerNet/sn-tracking)
+
 ## Repository Structure
 
-ByteTrack_HOME: This folder contains the ByteTrack model with everything installed and files are updated/added for the purpose of this project. The readme file inside this folder contains the steps for downloading the dataset, running inference for each sequence, as well as generating and zipping results for online or local evaluation.
+ByteTrack_HOME: This folder contains the ByteTrack model with everything installed and files are updated/added for the purpose of this project. The README file inside this folder contains the steps for downloading the dataset, running inference for each sequence, as well as generating and zipping results for online or local evaluation.
 
-ByteTrack_HOME: This folder contains the ByteTrack model with everything installed and files are updated/added for the purpose of this project. The readme file inside this folder contains the steps for downloading the dataset, running inference for each sequence, as well as generating and zipping results for online or local evaluation.
+ByteTrack_HOME: This folder contains a README file with steps on how to set up the model for this project. The model is not pre set up like the ByteTrack model due to git issues with many of the files after cloning the model.
 
 Milestones: This folder contains the multiple reports created for the milestones of this project.
 
