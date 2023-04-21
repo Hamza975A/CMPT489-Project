@@ -28,9 +28,6 @@ Download this repo to a directory, denoted as SN_TRACKING_ROOT, and run
     cp -r SN_TRACKING_ROOT/Benchmarks/DeepSORT/dataset/mot/*.py  PADDLE_DETECTION_ROOT/dataset/mot/
 ```
 
-### Download the dataset
-run the download_data.py file in the tools folder. The folders generated will be ignored by the .gitignore file, so the dataset wont be uploaded to github when saving this repository.
-
 ### Prepare the data into a unified format
 If you have not downloaded the dataset, follow the root level [readme](https://github.com/SoccerNet/sn-tracking#how-to-download-soccernet-tracking) to download (and unzip) the SoccerNet-tracking dataset. Denote the path of the dataset root directory as SN_TRACKING_DATA_ROOT, and run the following commands
 ```
